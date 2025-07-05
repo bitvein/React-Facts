@@ -6,7 +6,7 @@
 
 body {
   font-family: Inter;
-  background-color: #27292c;
+  background-color: white;
   color: white;
   width: 600px;
   border-right: #21222a 5px solid;
@@ -41,6 +41,7 @@ main {
   background-image: url(/src/images/react-logo-half.png);
   background-repeat: no-repeat;
   background-position: right 70%;
+  background-color: #27292c;
 }
 
 main > h1 {
@@ -61,4 +62,8 @@ main > h1 {
 ul > li::marker {
   color: #61dafb;
   font-size: 1.5rem;
+}
+
+footer {
+  background-color: #27292c;
 }
